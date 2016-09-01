@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Registration | Slammers Beach Volleyball</title>
+<link href="mainstyles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div><h1>Registration</h1>
+<p>Please complete the sign-up form below to register your team at Slammers Beach Volleyball.</p>
+<p>All fields are required.</p>
+
+<form>
+<form class="user info" action="contacts" method="post" id="register-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">Contact Person Name </label>
+ <input type="text" id="edit-name" name="name" value="" size="60" maxlength="255">
+</div></div>
+
+<div><div class="form-item form-type-number form-item-number">
+  <label for="edit-number">Contact Phone Number </label>
+ <input type="text" id="edit-number" name="number" value="" size="60" maxlength="255">
+</div></div>
+
+<div><div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">Contact Email Address</label>
+ <input type="text" id="edit-mail" name="mail" value="" size="60" maxlength="255">
+</div></div>
+
+<div><div class="form-item choose-day"><label for="choose day">Competition Day</label>
+<select name="day" form="day">
+  <option value="Monday">Monday</option>
+  <option value="Tuesday">Tuesday</option>
+  <option value="Wednesday">Wednesday</option>
+  <option value="Thursday">Thursday</option>
+  <option value="Friday">Friday</option>
+  <option value="Saturday">Saturday</option>
+</select>
+</div></div>
+
+<div><div class="form-item choose-time">
+<label for="choose time">Competition Time</label>
+<select name="time" form="time">
+  <option value="Afternoon">Afternoon</option>
+  <option value="Evening">Evening</option>
+ </select>
+</div></div>
+
+
+<form action="#" onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please indicate that you have read and agree to the Playing Guidelines); return false; }">
+
+<input type="checkbox" name="checkbox" value="check" id="agree" /> I have read and agree to the <a href="guidelines.html">Playing Guidelines</a>.
+
+<div>
+<input type="submit" name="submit" value="Submit" /></div>
+</form>
+</form>
+</form>
+</div></body>
+</html>
