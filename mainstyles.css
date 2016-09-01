@@ -1,7 +1,21 @@
 @charset "utf-8";
 #container .notebox p {
 }
+body {
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
 h1 {
-	color: #042BBD;
+	color: #0232E7;
 	padding-left: 35px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-style: normal;
+	font-size: 55px;
+}
+
+.notebox {
+	float: right;
+}
+
+.highlight {
+
 }
