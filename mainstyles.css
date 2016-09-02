@@ -1,20 +1,17 @@
 @charset "utf-8";
 
 body {
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	color: #040474;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	font-style: normal;
-	font-size: 1em;
-	word-spacing: normal;
+	font-size: 16px;
+	word-spacing:normal;
 	list-style-position: inside;
 	background-color: #F3F4BD;
-	padding-left: 10px;
-	padding-right: 0px;
+	padding-left: 15px;
+	padding-right: 10px;
 	text-align: left;
-	
+	margin-left: 15px;
 }
-
-/* Logical divisions */
 
 #header  {
 	position: relative;
@@ -24,27 +21,26 @@ body {
 	font-variant: normal;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 2em;
+	font-size: 1.5em;
 	padding-top: 10px;
-	padding-right: 20px;
+	padding-right: 15px;
 	padding-bottom: 10px;
-	padding-left: 20px;
+	padding-left: 15px;
 	text-align: left;
-	text-indent: 0px;
-	border-radius:
-	box-shadow: 10px 10px 10px #F8C103;
+	text-indent: 15px;
 	border-radius: 25px 25px 10px 10px;
 	word-spacing: 15px;
 	white-space: normal;
 	letter-spacing: 3px;
+	height: 155px
 }
 
 #header ul {
 	position: absolute;
-	right: 0px;
+	right: 20px;
 	bottom: 10px;
 	margin: 0px;
-	padding: 0px;
+	padding: 5px;
 	background-color: #0115F7;
 }
 
@@ -54,15 +50,15 @@ body {
 }
 
 #header ul li a {
-	height: 35px;
+	height: 30px;
 	margin: 0px;
-	padding: 7px 20px 7px 20px;
-	border-left: #B2E5FB 7px solid;
-	border-right: #B2E5FB 7px solid;
+	padding: 10px 20px 10px 20px;
+	border-left: #B2E5FB 5px solid;
+	border-right: #B2E5FB 5px solid;
 	color: #F87C02;
 	text-decoration: none;
-	font-size: 25px;
-	font-weight: 800;
+	font-size: 20px;
+	font-weight: 600;
 }
 
 #header ul li a:hover {
@@ -77,30 +73,89 @@ body {
 	
 #logo {
 	float: left;
-	clear: both;
-}
+	}
 	
 .section {
 	width: 45%;
 	float: right;
 	clear: both;
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
 	word-spacing: 0em;
 	border-right-width: medium;
 	border-style: dotted;
-	font-size: 16px;
+	font-size: 18px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #040474;
 }
 
-.article {
-
-}
-
-#main {
+#main li {
+	list-style: outside;
+	padding-left: 20px;
 }
 
 .highlight {
+	color: #F87C02; 
+	}
+
+
+.ladder, td, th {
+	border: thin solid #000412;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
 }
 
+
+.right-image {
+	float: right;
+}
+
+.left-image {
+	float: left;
+}
+
+.center {
+	text-align: center;
+	width: 50%;
+	margin-left: auto;
+    margin-right: auto;
+
+}
+
+#form {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+
+body  h2 {
+	color: #0115F7;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif
+}
+body h3 {
+	color: #0115F7;
+	text-align: left;
+	text-decoration: none;
+	padding-left: 10px;
+}
+body h4 {
+	color: #086822;}
+
+body h2 {
+}
+
+#anchor {
+	color: #04A461;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: 18px;
+	list-style: none;
+	display: inline;
+	text-decoration:none;
+}
 
 #footer {
 	clear: both;
@@ -117,24 +172,17 @@ body {
 	box-shadow: 10px 10px 10px #F8C103;
 	font-style: normal;
 	font-weight:300;
+
 }
-.container #main p {
+.container #main h4 {
 }
 a {
+	color: #0CA75C;
 	text-decoration: none;
-
-
 }
-.ladder, td, th {
-	border: thin solid #000412;
-}
-
-.right-image {
-	float: right;
-}
-.center {
-	text-align: center;
-	width: 50%;
-	margin-left: auto;
-    margin-right: auto;
+ul a strong {
+	background-color: #05E199;
+	border: medium solid #05E199;
+	color: #0115F7;
+	line-height: 16px;
 }
