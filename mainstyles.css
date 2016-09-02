@@ -1,22 +1,140 @@
 @charset "utf-8";
-#container 
-.notebox p {
-}
+
 body {
-	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-}
-h1 {
-	color: #0232E7;
-	padding-left: 35px;
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: #040474;
 	font-style: normal;
-	font-size: 55px;
+	font-size: 1em;
+	word-spacing: normal;
+	list-style-position: inside;
+	background-color: #F3F4BD;
+	padding-left: 10px;
+	padding-right: 0px;
+	text-align: left;
+	
 }
 
-.notebox {
+/* Logical divisions */
+
+#header  {
+	position: relative;
+	background-color: #B2E5FB;
+	color: #0115F7;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-variant: normal;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 2em;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	text-align: left;
+	text-indent: 0px;
+	border-radius:
+	box-shadow: 10px 10px 10px #F8C103;
+	border-radius: 25px 25px 10px 10px;
+	word-spacing: 15px;
+	white-space: normal;
+	letter-spacing: 3px;
+}
+
+#header ul {
+	position: absolute;
+	right: 0px;
+	bottom: 10px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #0115F7;
+}
+
+#header li {
+	list-style: none;
+	display: inline-block;
+}
+
+#header ul li a {
+	height: 35px;
+	margin: 0px;
+	padding: 7px 20px 7px 20px;
+	border-left: #B2E5FB 7px solid;
+	border-right: #B2E5FB 7px solid;
+	color: #F87C02;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: 800;
+}
+
+#header ul li a:hover {
+	color: #0115F7;
+	background-color: #05E199;
+}
+
+#header ul li a: visited {
+	color: #A2FCA1;
+	background-color: #0115F7;
+}
+	
+#logo {
+	float: left;
+	clear: both;
+}
+	
+.section {
+	width: 45%;
 	float: right;
+	clear: both;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	word-spacing: 0em;
+	border-right-width: medium;
+	border-style: dotted;
+	font-size: 16px;
 }
 
 .article {
 
+}
+
+#main {
+}
+
+.highlight {
+}
+
+
+#footer {
+	clear: both;
+	text-align: center;
+	padding-top: 10px;
+	padding-right: 25px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	background-color: #B2E5FB;
+	color: #F87C02;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	border-radius: 10px 10px 25px 25px;
+	border-radius:
+	box-shadow: 10px 10px 10px #F8C103;
+	font-style: normal;
+	font-weight:300;
+}
+.container #main p {
+}
+a {
+	text-decoration: none;
+
+
+}
+.ladder, td, th {
+	border: thin solid #000412;
+}
+
+.right-image {
+	float: right;
+}
+.center {
+	text-align: center;
+	width: 50%;
+	margin-left: auto;
+    margin-right: auto;
 }
